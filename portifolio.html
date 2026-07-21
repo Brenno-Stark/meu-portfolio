@@ -14,8 +14,12 @@
 
         <img src="Imagens/Brenno.JPG" alt="Foto Brenno Muniz" width="200px" height="200px">
     </header>
-
+    <!--main, é o conteúdo principal da página, de uma forma semantica para uma estrurura bem vista no SEO (meu entendimento, caso incorreto, corrijo.) 
+    Não interfere no visual da página, e sim diretamente no código interno.-->
     <main>
+        <!--section, é usado no lugar do "id", também para uma boa estrutura com boa visibiladade no SEO,
+        cada um é usado para um conteúdo específico. Independente da quantidade de conteúdos no site 
+        é sempre bom usá-lo para identificar e facilitar para a estelozação.-->
         <section>
             <h2>Sobre mim</h2>
             <p>
@@ -36,15 +40,17 @@
 
             <p>
                 Também estou cursando a faculdade de ANÁLISE E DESENVOLVIMENTO DE SISTEMAS pela ANHANGUERA e poder
-                entrar na área da tecnoligia.
+                entrar na área da tecnologia.
             </p>
         </section>
-
+        <!--Link do site de forma semantica (correta)-->
         <a href="https://www.anhanguera.com/" target="_blank">
             Conheça o site da Anhanguera
         </a>
 
-
+        <!--Esse é um exemplo de section usado para falar do assunto que vou aprender.
+        Quando for usar o CSS, preciso dar um nome especifico para esse section, para poder especificar 
+        onde quero estilizar.-->
         <section>
             <h2>Tecnologias que vou aprender</h2>
             <ul>
@@ -56,38 +62,46 @@
             <section>
                 <h2>Meu plano de estudos</h2>
                 <table border="1">
+                    <!--caption é título da tabela escrito de forma semantica para uam boa estrutura e 
+                    visibilidade no SEO, SEMPRE FAZER PRIMEIRO QUANDO FOR FAZER TABELA NO SITE.-->
+                    <caption>Plano de Estudos</caption>
                     <thead>
                         <tr>
                             <th>Tecnologia</th>
-                            <th>Nivel</th>
+                            <th>Nível</th>
                             <th>Previsão</th>
 
                         </tr>
                     </thead>
 
                     <tbody>
+
                         <tr>
                             <td>HTML</td>
                             <td>Iniciante</td>
-                            <td>09/2026</td>
+                            <td>08/2028</td>
                         </tr>
-                    </tbody>
 
-                    <tbody>
+
                         <tr>
                             <td>CSS</td>
                             <td>Iniciante</td>
-                            <td>09/2026</td>
+                            <td>08/2028</td>
                         </tr>
-                    </tbody>
 
-                    <tbody>
                         <tr>
                             <td>JAVASCRIPT</td>
                             <td>Iniciante</td>
-                            <td>09/2026</td>
+                            <td>08/2028</td>
                         </tr>
                     </tbody>
+                    <!--tfoot, sempre usar no rodapé da tabela, para resumir o conteúdo da tabela.
+                    OBS:nem sempre usar ...-->
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">3 Tecnologias em desenvolvimento</td>
+                        </tr>
+                    </tfoot>
 
                 </table>
             </section>
@@ -99,7 +113,7 @@
         <section>
             <h2>Meu objetivo</h2>
             <p>
-                Meu objtivo é me tornar um ótimo profissional no ramo da tecnologia, e Poder dar uma condição de vida
+                Meu objetivo é me tornar um ótimo profissional no ramo da tecnologia, e Poder dar uma condição de vida
                 melhor para minha família.
             </p>
 
